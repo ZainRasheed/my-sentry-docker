@@ -55,7 +55,7 @@ http://127.0.0.1:9000
 
 ## Errors:
 1) CSRF Verification Failed
-   - The fix is to open ```sentry/config.yml``` file and set ```system.url-prefix``` to match your public URL.
+   - The fix is to open ```sentry/config.yml``` file and set ```system.url-prefix``` to match your public URL eg: ```system.url-prefix: 'http://192.168.xx.xx:9000'```.
    - https://github.com/getsentry/self-hosted/issues/2751
 
 
