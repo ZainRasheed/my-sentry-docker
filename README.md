@@ -53,3 +53,9 @@ http://127.0.0.1:9000
 ###### Reference - https://develop.sentry.dev/self-hosted/
 
 
+## Errors:
+1) CSRF Verification Failed
+   - The fix is to open sentry/config.yml file and set system.url-prefix to match your public URL.
+   - https://github.com/getsentry/self-hosted/issues/2751
+
+
